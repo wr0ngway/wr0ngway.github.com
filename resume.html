@@ -1,0 +1,440 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+  <head>
+
+    <style type="text/css">
+
+    /* Resume */
+    html {
+    	background-color: #afafaf;
+    	color: #000;
+    	padding: .75em;
+    }
+    .hresume {
+    	background-color: #fff;
+    	color: #000;
+    	font: 80% Verdana, Arial, Helvetica, sans-serif;	
+    	padding: 3.25em;
+    	margin: 0 auto;
+    	border-top: 1px solid #000;
+    	border-right: 3px solid #000;
+    	border-bottom: 3px solid #000;
+    	border-left: 1px solid #000;
+    	width: 50em;
+    }
+    h1, h2 {
+    	font-variant: small-caps;
+    	font-family: "Times New Roman", Times, serif;
+    	letter-spacing: .15em;
+    }
+    h1 {
+    	border-bottom: 3px double #000;
+    	margin: 0;
+    }
+    h1 a {
+    	background-color: #fff;
+    	color: #000;
+    	text-decoration: none;
+    }
+    h2 {
+    	border-bottom: 1px solid #000;
+    	margin: 20px 0 0 0;
+    }
+    h3 {
+    	font-size: 1em;
+    	display: inline;
+    	margin-right: .75em;
+    	text-transform: uppercase;
+    }
+    .experience > h3 {
+    		margin-right: 0;
+    }
+    h3:after { 
+    	content: ", ";
+    }
+    h4 {
+    	font-size: 1em;
+    	margin-bottom: 0;
+    }
+    h4.title {
+    	margin-top: 0.3em;
+    	font-style: italic;
+    	/* text-align: center; */
+    }
+    ul {
+    	list-style-type: disc;
+    }
+    li { 
+    	margin-bottom: .5em;
+    }
+
+    abbr { 
+    	cursor: default;
+    	border: none;
+    }
+    abbr:hover { 
+    	cursor: default;
+    	border-bottom: 1px dotted #000;
+    }
+    .type {
+    	display: none;	
+    }
+    span.street-address, span.postal-code, div.tel { 
+    	margin-right: .75em;
+    }
+    address > span.street-address, address > span.postal-code, div.vcard > div.tel { 
+    	margin-right: 0;
+    }
+    span.street-address:after, span.postal-code:after, div.tel:after {
+    	content: " \00B7";
+    	font-weight: bold;
+    	font-size: 1.1em;
+    }
+    span.additional-name  {
+    	display: none;
+    }
+    address, div.email, div.tel { 
+    	display: inline;
+    	font-style: normal;
+    }
+    div.email a { 
+    	background-color: #fff;
+    	color: #000;
+    	text-decoration: none;
+    }
+    div.email a span.value{ 
+    	background-color: #fff;
+    	color: #0000FF;
+    	text-decoration: underline;
+    }
+    div.location { 
+    	display: inline;
+    }
+    div.period { 
+    	/*margin-top: -1.3em;*/
+    	float: right;
+    }
+    @media all and (min-width: 0) {
+    div.period { 
+    	margin-top: 0;
+    }
+    }
+    p.description {
+    	margin-top: 0;
+    }
+    p.misc {
+    	font-weight: bold;
+    	text-align: center;
+    }
+    ul.history {
+    	list-style-type: none;
+    	margin-left: 0;
+    	padding-left: 0;
+    }
+    ul.achievements {
+    	margin-top: -0.6em;
+    }
+    li.experience {
+    	margin-bottom: 24px;
+    }
+    ul.skills  {
+    	list-style-type: none;
+    	margin: 10px 0 0 0;
+    	padding: 0;
+    }
+    ul.skills li  {
+    	margin: 0;
+    	padding: 0;
+    }
+    ul.skillset {
+    	list-style-type: none;
+    	margin: 0;
+    	padding: 0;
+    	display: inline;
+    }
+    li.skillarea {
+    	font-weight: bold;
+    }
+    ul.skillset li {
+    	display: inline;
+    	font-weight: normal;
+    }
+    ul.skillset li:after {
+    	content: ", ";
+    }
+    ul.skillset li:last-child:after {
+    	content: "";
+    }
+    object.include {
+    	display: none;
+    	width:0; 
+    	height:0;
+    }
+    </style>
+    <title>Matthew Conway - Resume</title>
+  </head>
+  <body>
+    <div class="hresume">
+      <div class="contact vcard">
+        <h1 class="fn n" id="name">
+          Resume of <a class="url" href="http://simplygenius.com/" rel="me"><span class="given-name">Matthew</span> <span class="family-name">Conway</span></a>
+        </h1>
+        <address class="adr">
+    			<span class="locality">Weymouth</span>, <abbr class="region" title="Massachusetts">MA</abbr> <span class="postal-code">02189</span>
+    		</address>
+    		<div class="email">
+    			<abbr class="type" title="email">Email:</abbr> <a href="mailto:matt@conwaysplace.com" class="value">matt@conwaysplace.com</a>
+    		</div>
+    		
+        <!--
+        <div class="adr">
+          <span class="street-address">22 Overlook Road</span><br>
+          <span class="locality">Weymouth</span>, <span class="region">MA</span> <span class="postal-code">02189</span><span class="country-name">US</span>
+        </div>
+        <div style="float: left; padding-right: 15px;">
+          <span class="tel"><span class="value">781-335-4228</span> <span class="type">(home)</span></span><br>
+          <span class="tel"><span class="value">617-775-9160</span> <span class="type">(cell)</span></span>
+        </div>
+        <div style="float: left;">
+          Email: <a class="email" href="mailto:matt@conwaysplace.com">matt@conwaysplace.com</a><br>
+          Web: <a class="url" href="http://simplygenius.com">http://simplygenius.com</a><br>
+          <a class="url" href="http://www.linkedin.com/in/matthewrbconway">LinkedIn Profile</a>
+        </div>
+        -->
+        <div style="clear: both;">
+          &nbsp;
+        </div>
+      </div>
+      <div>
+        <h2>
+          Summary
+        </h2>
+        <div class="summary">
+          An individual with diverse knowledge in advanced computing technologies, looking for a hands-on technical leadership role.
+        </div>
+      </div>
+      <div>
+        <h2>
+          Professional Experience
+        </h2>
+        <div class="vcalendar">
+          <div class="experience vevent vcard">
+            <div class="htitle">
+              <!-- div float container -->
+              <object data="#j" class="include">
+                </object> <span class="title">Vice President of Engineering</span><br>
+              <span class="org">Mobicious, Inc.</span>, <span class="location">Needham, MA</span>
+            </div>
+            <div class="date_duration">
+              <abbr class="dtstart" title="2007-05-01">May 2007</abbr> - <abbr class="dtend" title="2009-12-01">December 2009</abbr>
+            </div>
+            <div style="clear: both">
+              &nbsp;
+            </div>
+            <div class="description">
+              Built and managed a local engineering team for creating the mobicious product suite.
+              <ul>
+                <li>Defined strategy for building our technology within the Amazon Cloud
+                </li>
+                <li>Architect and engineer for <a href="http://mobicious.com">http://mobicious.com</a>, a content directory for mobile phones
+                </li>
+                <li>Architect and engineer for <a href="http://snapmylife.com">http://snapmylife.com</a>, a mobile social networking site for sharing photos
+                </li>
+                <li>Architect and engineer for <a href="http://snap2twitter.com">http://snap2twitter.com</a>, a twitter photo sharing site built using a photo sharing platform/api extracted from snapmylife.com
+                </li>
+                <li>Author of a provisional patent for accelerating mobile ad serving</li>
+              </ul>
+            </div>
+          </div>
+          <div class="experience vevent vcard">
+            <div class="htitle">
+              <!-- div float container -->
+              <object data="#j" class="include">
+                </object> <span class="title">Senior Software Architect</span><br>
+              <span class="org">TripAdvisor, Inc.</span>, <span class="location">Needham, MA</span>
+            </div>
+            <div class="date_duration">
+              <abbr class="dtstart" title="2004-02-01">February 2004</abbr> - <abbr class="dtend" title="2007-04-01">April 2007</abbr>
+            </div>
+            <div style="clear: both">
+              &nbsp;
+            </div>
+            <div class="description">
+              <ul>
+                <li>System design/maintenance/integration for the TripAdvisor production servers.
+                </li>
+                <li>Designed the infrastructure for a Service Oriented Architecture to make it easy to create, change and manage clusters of backend services. This system is used across all of the TripAdvisor products.
+                </li>
+                <li>Built the TripAdvisor Inside product ( <a href="http://www.tripadvisor.com/TravelHome">http://www.tripadvisor.com/TravelHome</a> ) - a wiki for travel guidebook information integrated into TripAdvisor. Designed, and did initial build using open source engines (XWiki, TinyMCE) and later led a team of 3 engineers in building out the product. This was designed to be highly sclable using a multi-tier architecture. The frontend consisted of Servlets+velocity for html rendering, with a SOA layer to a cluster of backend java services using a postgres DB.
+                </li>
+                <li>Built a Search Engine Marketing (SEM) management system in Java that performs the following roles:
+                  <ul>
+                    <li>Generate new search terms based on heuristics applied against tripadvisor entities.
+                    </li>
+                    <li>Upload said terms to the Search Engines using their respective APIs (Google's Adwords Web Services API and Overtures XML/HTTP service)
+                    </li>
+                    <li>Retrieve performance statistics (cost, clicks, etc) from the Search Engines and collate them with internal revenue statistics
+                    </li>
+                    <li>Perform optimizations based on those statistics to determine which terms to perform a CPC increase/decrease or delete on. This was done using a rule engine built using an embedded jython instance.
+                    </li>
+                    <li>Postgres database layer (hand-coded) and JSF Web UI to manage all of the above
+                    </li>
+                    <li style="list-style: none">This system was responsible for driving a significant amount of Tripadvisor\'s revenue, with a high rate of return.
+                    </li>
+                  </ul>
+                </li>
+                <li>Wrote a number of web crawlers to aggregate hotel data from external web sites like Fodors, Frommers, Expedia, etc. As a side effect of this, developed a crawler framework that made it easier to scrape data by xhtmlizing the crawled pages and applying xpath expressions to extract the relevant information. This resulted in much quicker turn around time for new crawlers, and minimal code changes needed to update existing ones.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="experience vevent vcard">
+            <div class="htitle">
+              <!-- div float container -->
+              <object data="#j" class="include">
+                </object> <span class="title">Senior Software Developer</span><br>
+              <span class="org">i2 Technologies, Inc.</span>, <span class="location">Cambridge, MA</span>
+            </div>
+            <div class="date_duration">
+              <abbr class="dtstart" title="1999-01-01">January 1999</abbr> - <abbr class="dtend" title="2004-01-01">January 2004</abbr>
+            </div>
+            <div style="clear: both">
+              &nbsp;
+            </div>
+            <div class="description">
+              <ul>
+                <li>Rewrote a number of Web UIs to use the Jakarta struts/tiles framework instead of a homegrown one that was no longer being maintained.
+                </li>
+                <li>Designed and implemented a JMX management layer around the Jython scripting framework, to allow distributed monitoring and management of i2 processes.
+                </li>
+                <li>Wrote a Web UI equivalent to the Swing UI for the Jython scripting framework.
+                </li>
+                <li>Designed and implemented a cross platform scripting utility used across i2 to ease product integration. This was implemented in Java with an optional Swing UI, and used Jython as the scripting engine.
+                </li>
+                <li>Worked on the integration team responsible for providing a framework for integrating all of i2\'s products. This team provided an abstraction layer between i2 products and various messaging technologies by using xml metadata to describe the interfaces to the products.
+                </li>
+                <li>Designed and implemented a project configuration mechanism that unified development and production configuration. This was done using XML configuration files transformed with XSLT into a multitude of third party configuration files. This allowed for a single point of configuration with easy application by executing a single command. Designed and implemented project build management infrastructure used by development teams for managing development projects. This was built using the Apache Ant utility, heavily customized with a number of custom tasks.
+                </li>
+                <li>Part of the development team for a web marketplace for logistic producers/consumers (www.freightmatrix.com). Used Java/EJB/JSP to implement a flexible multi-tier architecture. Ported C/C++ code for four of i2's applications to work natively under HP-UX 11\'s 32 bit architecture. Extended port to HP\'s 64 bit architecture. Ported to the GCC compiler to satisfy the need for these applications on other platforms including AIX and Solaris.
+                </li>
+                <li>Worked on adding new functionality to the C++ engine used for optimizing shipping logistics within many of i2\'s products.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="experience vevent vcard">
+            <div class="htitle">
+              <!-- div float container -->
+              <object data="#j" class="include">
+                </object> <span class="title">Programmer Analyst</span><br>
+              <span class="org">American Management Systems</span>, <span class="location">Birmingham, AL</span>
+            </div>
+            <div class="date_duration">
+              <abbr class="dtstart" title="1995-09-01">September 1995</abbr> - <abbr class="dtend" title="1998-12-01">December 1998</abbr>
+            </div>
+            <div style="clear: both">
+              &nbsp;
+            </div>
+            <div class="description">
+              <ul>
+                <li>Developed a Generic CORBA client in Java to aid in testing our CORBA C++ servers. The client would dynamically determine the properties of IDL interfaces at runtime and allow the user to interactively call methods on those interfaces in a graphical manner. This was done by using either introspection of Java stub code generated by the Java IDL compiler or by dynamically reading and parsing the IDL retrieved from a CORBA interface repository.
+                </li>
+                <li>AMSCAT (AMS Center for Advanced Technology) Associate. Used Gemstone/J to write an application server in order to determine its viability as a product for use by AMS. Integrated this server with software written by other Associates to tackle a problem experienced in one of AMS\'s business projects.
+                </li>
+                <li>C++ developer on the Quantum project at BellSouth. The Quantum project involved implementing a flexible billing system using a three tiered architecture. This system consisted of a Smalltalk front end using CORBA to access a C++ middle tier. The C++ middle tier is a scalable, distributed architecture accessing a Sybase backend through the combination of an object persistence framework and Rogue Wave\'s DBTools.h++. Worked closely with clients to design new functionality for the C++ middle tier and implemented many of these changes.
+                </li>
+                <li>Configuration management on the FORCE2000 Project for British Telecom. Liaison between the configuration management team and developers. Responsible for creating a suite of unix scripts for accessing a NT PVCS archive from a DEC Alpha Ultrix machine. These scripts used a combination of NFS, RCP and RSH/REXEC to transfer the files and check them into and out of the archive by remotely executing the Windows NT PVCS executables.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="experience vevent vcard">
+            <div class="htitle">
+              <!-- div float container -->
+              <object data="#j" class="include">
+                </object> <span class="org">Open Source Projects</span>
+            </div>
+            <div style="clear: both">
+              &nbsp;
+            </div>
+            <div class="description">
+              <ul>
+                <li>A handful of RubyOnRails related projects, including rubber, a framework for deploying and scaling web applications in the Amazon EC2 Cloud - <a href="http://github.com/wr0ngway">http://github.com/wr0ngway</a>
+                </li>
+                <li>Numerous contributions to the XWiki project, including a clustered distributed cache solution using JGroups.
+                </li>
+                <li>Cross platform Java client API for Rational Clearcase. This uses a Java-COM bridge (previously JNI) under Windows, and a CLI wrapper under other platforms - <a href="http://sourceforge.net/projects/clearcase-java">http://sourceforge.net/projects/clearcase-java</a>
+                </li>
+                <li>An Eclipse plug-ins for Rational Clearcase which uses the above API - <a href="http://sourceforge.net/projects/eclipse-ccase">http://sourceforge.net/projects/eclipse-ccase</a>
+                </li>
+                <li>The Sunshade project which provides a collection of plug-ins to enhance the eclipse experience by fixing UI and functionality deficiencies - <a href="http://sunshade.sourceforge.net/">http://sunshade.sourceforge.net/</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h2>
+          Education &amp; Affiliations
+        </h2>
+        <div class="vcalendar">
+          <div class="education vevent vcard">
+            <div class="htitle">
+              <!-- div float container -->
+              <span class="summary">S.B. Computer Science and Engineering</span><br>
+              <span class="org">Massachusetts Institute of Technology</span>
+            </div>
+            <div class="date_duration">
+              <abbr class="dtstart" title="1990-01-01">1990</abbr> - <abbr class="dtend" title="1995-01-01">1995</abbr>
+            </div>
+            <div style="clear: both">
+              &nbsp;
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="vcalendar">
+          <div class="education vevent vcard">
+            <div class="htitle">
+              <!-- div float container -->
+              <span class="summary">Member of Eta Kappa Nu Honor Society</span>
+            </div>
+            <div class="date_duration">
+              <abbr class="dtstart" title="1992-01-01">1992</abbr> - <abbr class="dtend" title="1995-01-01">1995</abbr>
+            </div>
+            <div style="clear: both">
+              &nbsp;
+            </div>
+          </div>
+          <div>
+            <h2>
+              Skills
+            </h2>
+            <div>
+              <ul>
+                <li>Agile methodologies - 3 years
+                </li>
+                <li>Amazon Cloud (EC2, S3, Mturk) - 3 years
+                </li>
+                <li>Ruby, Ruby on Rails - 3 years
+                </li>
+                <li>Java - 10 years
+                </li>
+                <li>C, C++ - 5 years
+                </li>
+                <li>Python, Jython - 3 years
+                </li>
+                <li>XML - 8 years
+                </li>
+                <li>Linux - 10+ years
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
