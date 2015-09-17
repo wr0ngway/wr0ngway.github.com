@@ -1,0 +1,205 @@
+{
+  "basics": {
+    "name": "Matthew Conway",
+    "label": "CTO",
+    "picture": "http://www.gravatar.com/avatar/962f375eb3baf853485fdfcfe2277857",
+    "email": "matt@conwaysplace.com",
+    "phone": "(781) 333-8884",
+    "website": "http://simplygenius.com",
+    "summary": "An individual with diverse knowledge in advanced computing technologies, with extensive experience as an executive in Boston Technology startups.  Effective at bootstrapping software startups at both a team and technology level, with enough of a business sense to help tune an initial concept into a success, and define a long term technology strategy",
+    "location": {
+      "address": "22 Overlook Road",
+      "postalCode": "MA 02189",
+      "city": "Weymouth",
+      "countryCode": "US",
+      "region": "Massachusetts"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "wr0ngway",
+        "url": "https://github.com/wr0ngway"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "mattconway",
+        "url": "http://www.linkedin.com/in/matthewrbconway"
+      },
+      {
+        "network": "Twitter",
+        "username": "mattconway",
+        "url": "https://twitter.com/mattconway"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Datto",
+      "position": "VP of Cloud Services",
+      "website": "http://datto.com",
+      "startDate": "2015-01-01",
+      "endDate": "2015-09-30",
+      "summary": "Assisted in the integration of Backupify post-acquisition by Datto",
+      "highlights": [
+        "Completed outstanding deliverables and transitioned mindshare",
+        "Assisted and Advised in integrating teams and technologies"
+      ]
+    },
+    {
+      "company": "Backupify",
+      "position": "CTO/VP Engineering",
+      "website": "http://backupify.com",
+      "startDate": "2010-03-01",
+      "endDate": "2014-12-31",
+      "summary": "Built the initial team, helped define strategy, culture, and process, and set the engineering patterns to take us through a successful exit",
+      "highlights": [
+        "Built and managed initial engineering team, and set up the effective engineering practices that persist to date",
+        "Engineered enough of a system to prove the business idea using Ruby, Rails, Cassandra, Postgresql, Redis, all running on AWS",
+        "Evolved system over time to improve its reliability and scale",
+        "Built a distributed, asynchronous worker processing abstraction on top of Qless/Redis",
+        "Built a storage abstraction layer to allow use of different storage backends (S3, Swift, etc)",
+        "Defined and prototyped the next generation SaaS backup architecture to allow backups/exports/restores for any REST-like SaaS API through a declarative description of it"
+      ]
+    },
+    {
+      "company": "Mobicious",
+      "position": "VP Engineering",
+      "website": "http://mobicious.com",
+      "startDate": "2007-05-01",
+      "endDate": "2009-12-31",
+      "summary": "Built and managed a local engineering team for creating the mobicious product suite",
+      "highlights": [
+        "Defined the company's strategy for building within the Amazon Cloud",
+        "Architected and helped engineer mobicious.com, a content directory for mobile phones",
+        "Architected and helped engineer snapmylife.com, a mobile social networking site for sharing photos",
+        "Architected and helped engineer snap2twitter.com, a twitter photo sharing site built using a photo sharing platform/api extracted from snapmylife.com",
+        "Author of a provisional patent for accelerating mobile ad serving"
+      ]
+    },
+    {
+      "company": "TripAdvisor",
+      "position": "Senior Engineer, Architect, Team Lead",
+      "website": "http://tripadvisor.com",
+      "startDate": "2004-02-01",
+      "endDate": "2007-04-30",
+      "summary": "",
+      "highlights": [
+        "System design/maintenance/integration for the TripAdvisor production servers",
+        "Designed the infrastructure for a Service Oriented Architecture to make it easy to create, change and manage clusters of backend services. This system is used across all of the TripAdvisor products",
+        "Built the TripAdvisor Inside product ( http://www.tripadvisor.com/TravelHome ) - a wiki for travel guidebook information integrated into TripAdvisor. Designed, and did initial build using open source engines (XWiki, TinyMCE) and later led a team of 3 engineers in building out the product. This was designed to be highly sclable using a multi-tier architecture. The frontend consisted of Servlets+velocity for html rendering, with a SOA layer to a cluster of backend java services using a postgresql DB",
+        "Built a Search Engine Marketing (SEM) management system in Java.  This system was responsible for driving a significant amount of Tripadvisor's revenue, with a high rate of return",
+        "Wrote a number of web crawlers to aggregate hotel data from external web sites like Fodors, Frommers, Expedia, etc. As a side effect of this, developed a crawler framework that made it easier to scrape data by xhtmlizing the crawled pages and applying xpath expressions to extract the relevant information. This resulted in much quicker turn around time for new crawlers, and minimal code changes needed to update existing ones"
+      ]
+    },
+    {
+      "company": "i2 Technologies",
+      "position": "Software Engineer",
+      "website": "",
+      "startDate": "2010-03-01",
+      "endDate": "2014-12-31",
+      "summary": "Built the team, Helped define strategy, and set the engineering patterns to take us to a successful exit",
+      "highlights": [
+        "Rewrote a number of Web UIs to use the Jakarta struts/tiles framework instead of a homegrown one that was no longer being maintained",
+        "Designed and implemented a JMX management layer around the Jython scripting framework, to allow distributed monitoring and management of i2 processes.",
+        "Wrote a Web UI equivalent to the Swing UI for the Jython scripting framework",
+        "Designed and implemented a cross platform scripting utility used across i2 to ease product integration. This was implemented in Java with an optional Swing UI, and used Jython as the scripting engine",
+        "Worked on the integration team responsible for providing a framework for integrating all of i2's products. This team provided an abstraction layer between i2 products and various messaging technologies by using xml metadata to describe the interfaces to the products",
+        "Designed and implemented a project configuration mechanism that unified development and production configuration. This was done using XML configuration files transformed with XSLT into a multitude of third party configuration files. This allowed for a single point of configuration with easy application by executing a single command. Designed and implemented project build management infrastructure used by development teams for managing development projects. This was built using the Apache Ant utility, heavily customized with a number of custom tasks",
+        "Part of the development team for a web marketplace for logistic producers/consumers (www.freightmatrix.com). Used Java/EJB/JSP to implement a flexible multi-tier architecture. Ported C/C++ code for four of i2's applications to work natively under HP-UX 11's 32 bit architecture. Extended port to HP's 64 bit architecture. Ported to the GCC compiler to satisfy the need for these applications on other platforms including AIX and Solaris",
+        "Worked on adding new functionality to the C++ engine used for optimizing shipping logistics within many of i2's products"
+      ]
+    },
+    {
+      "company": "American Management Systems",
+      "position": "Software Engineer",
+      "website": "",
+      "startDate": "2010-03-01",
+      "endDate": "2014-12-31",
+      "summary": "Built the team, Helped define strategy, and set the engineering patterns to take us to a successful exit",
+      "highlights": [
+        "Developed a Generic CORBA client in Java to aid in testing our CORBA C++ servers. The client would dynamically determine the properties of IDL interfaces at runtime and allow the user to interactively call methods on those interfaces in a graphical manner. This was done by using either introspection of Java stub code generated by the Java IDL compiler or by dynamically reading and parsing the IDL retrieved from a CORBA interface repository",
+        "AMSCAT (AMS Center for Advanced Technology) Associate. Used Gemstone/J to write an application server in order to determine its viability as a product for use by AMS. Integrated this server with software written by other Associates to tackle a problem experienced in one of AMS's business projects",
+        "C++ developer on the Quantum project at BellSouth. The Quantum project involved implementing a flexible billing system using a three tiered architecture. This system consisted of a Smalltalk front end using CORBA to access a C++ middle tier. The C++ middle tier is a scalable, distributed architecture accessing a Sybase backend through the combination of an object persistence framework and Rogue Wave's DBTools.h++. Worked closely with clients to design new functionality for the C++ middle tier and implemented many of these changes",
+        "Configuration management on the FORCE2000 Project for British Telecom. Liaison between the configuration management team and developers. Responsible for creating a suite of unix scripts for accessing a NT PVCS archive from a DEC Alpha Ultrix machine. These scripts used a combination of NFS, RCP and RSH/REXEC to transfer the files and check them into and out of the archive by remotely executing the Windows NT PVCS executables"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Massachusetts Institute of Technology",
+      "area": "Computer Science and Engineering",
+      "studyType": "S.B.",
+      "startDate": "1990-09-01",
+      "endDate": "1995-05-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Systems Engineering",
+      "level": "Master",
+      "keywords": [
+        "Distributed Architectures",
+        "Orchestration",
+        "DevOps",
+        "Infrastructure",
+        "Metrics and Monitoring"
+      ]
+    },
+    {
+      "name": "Software Development",
+      "level": "Master",
+      "keywords": [
+        "Ruby",
+        "Python",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Software Engineering",
+      "level": "Master",
+      "keywords": [
+        "Agile",
+        "SCRUMM",
+        "Kanban",
+        "TDD",
+        "Git Flow"
+      ]
+    },
+    {
+      "name": "Database Technology",
+      "level": "Advanced",
+      "keywords": [
+        "Postgresql",
+        "Cassandra",
+        "CAP Theorem",
+        "Redis"
+      ]
+    },
+    {
+      "name": "Mobile Development",
+      "level": "Basic",
+      "keywords": [
+        "iOS",
+        "Android",
+        "React Native"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "Basic",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Angular",
+        "Ember"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ]
+}
