@@ -6,7 +6,7 @@
     "email": "matt@conwaysplace.com",
     "phone": "(781) 333-8884",
     "website": "http://simplygenius.com",
-    "summary": "An individual with diverse knowledge in advanced computing technologies, with extensive experience as an executive in Boston Technology startups.  Effective at bootstrapping software startups at both a team and technology level, with enough of a business sense to help tune an initial concept into a success, and define a long term technology strategy",
+    "summary": "An individual with diverse knowledge in advanced computing technologies, with extensive experience as an executive in Boston Technology startups.  Most effective at bootstrapping software startups at both a team and technology level, with enough of a business sense to help tune an initial concept into a success, and define a long term technology strategy",
     "location": {
       "address": "22 Overlook Road",
       "postalCode": "MA 02189",
@@ -58,6 +58,9 @@
         "Evolved system over time to improve its reliability and scale",
         "Built a distributed, asynchronous worker processing abstraction on top of Qless/Redis",
         "Built a storage abstraction layer to allow use of different storage backends (S3, Swift, etc)",
+        "Built a metrics collection and display system using collectd, graphite, statsd, then influxdb, grafana",
+        "Built a log collection and display system using rsyslog, graylog, then logstash, elasticsearch, kibana",
+        "Built a database tenant management service backed by postgresql and S3",
         "Defined and prototyped the next generation SaaS backup architecture to allow backups/exports/restores for any REST-like SaaS API through a declarative description of it"
       ]
     },
@@ -70,6 +73,7 @@
       "summary": "Built and managed a local engineering team for creating the mobicious product suite",
       "highlights": [
         "Defined the company's strategy for building within the Amazon Cloud",
+        "Authored the rubber open source project for managing cloud provisioning and deployment",
         "Architected and helped engineer mobicious.com, a content directory for mobile phones",
         "Architected and helped engineer snapmylife.com, a mobile social networking site for sharing photos",
         "Architected and helped engineer snap2twitter.com, a twitter photo sharing site built using a photo sharing platform/api extracted from snapmylife.com",
@@ -151,7 +155,9 @@
       "keywords": [
         "Ruby",
         "Python",
-        "Javascript"
+        "Javascript",
+        "Java",
+        "C/C++"
       ]
     },
     {
@@ -194,6 +200,29 @@
         "Angular",
         "Ember"
       ]
+    }
+  ],
+  "publications": [
+    {
+      "name": "TivoHMO",
+      "publisher": "Matt Conway",
+      "releaseDate": "2014-10-01",
+      "website": "https://github.com/wr0ngway/tivohmo",
+      "summary": "A ruby gem that provides a Ruby SDK for authoring and running Tivo Home Media Option applications, to enable viewing of Plex Video shares through the Tivo television UI"
+    },
+    {
+      "name": "Trident",
+      "publisher": "Matt Conway",
+      "releaseDate": "2013-11-05",
+      "website": "https://github.com/wr0ngway/trident",
+      "summary": "A ruby gem for managing pools of arbitrary forked processes"
+    },
+    {
+      "name": "Rubber",
+      "publisher": "Matt Conway",
+      "releaseDate": "2008-01-25",
+      "website": "http://rubber.io/",
+      "summary": "A deployment framework that enables relatively complex multi-instance deployments of applications to Amazon’s Elastic Compute Cloud (EC2) and other cloud providers"
     }
   ],
   "languages": [
