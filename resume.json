@@ -140,7 +140,7 @@
   "skills": [
     {
       "name": "Systems Engineering",
-      "level": "Master",
+      "level": "Advanced",
       "keywords": [
         "Distributed Architectures",
         "Orchestration",
@@ -151,22 +151,24 @@
     },
     {
       "name": "Software Development",
-      "level": "Master",
+      "level": "Advanced",
       "keywords": [
         "Ruby",
-        "Python",
-        "Javascript",
-        "Java",
-        "C/C++"
+        "Rails",
+        "Javascript (adequate)",
+        "Python (rusty)",
+        "Java (rusty)",
+        "C/C++ (rusty)",
+        "Go (academic)"
       ]
     },
     {
       "name": "Software Engineering",
-      "level": "Master",
+      "level": "Advanced",
       "keywords": [
         "Agile",
-        "SCRUMM",
         "Kanban",
+        "Scrum",
         "TDD",
         "Git Flow"
       ]
@@ -182,12 +184,21 @@
       ]
     },
     {
+      "name": "Linux",
+      "level": "Advanced",
+      "keywords": [
+        "Ubuntu",
+        "Shell Scripting (bash)",
+        "System configuration"
+      ]
+    },
+    {
       "name": "Mobile Development",
       "level": "Basic",
       "keywords": [
-        "iOS",
         "Android",
-        "React Native"
+        "iOS (rusty)",
+        "React Native (academic)"
       ]
     },
     {
@@ -197,8 +208,8 @@
         "HTML",
         "CSS",
         "Javascript",
-        "Angular",
-        "Ember"
+        "Angular (minimal)",
+        "Ember (academic)"
       ]
     }
   ],
@@ -219,7 +230,7 @@
     },
     {
       "name": "Rubber",
-      "publisher": "Matt Conway",
+      "publisher": "Matt Conway, Kevin Menard",
       "releaseDate": "2008-01-25",
       "website": "http://rubber.io/",
       "summary": "A deployment framework that enables relatively complex multi-instance deployments of applications to Amazon’s Elastic Compute Cloud (EC2) and other cloud providers"
