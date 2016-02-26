@@ -34,6 +34,19 @@
   },
   "work": [
     {
+      "company": "Simply Genius LLC",
+      "position": "President",
+      "website": "http://simplygenius.com",
+      "startDate": "2015-10-15",
+      "endDate": "2016-12-31",
+      "summary": "Various consulting engagements",
+      "highlights": [
+        "BetterOutcomes (8 weeks): Used terraform to define a multi-account AWS infrastructure following strong security compliance guidelines for the healthcare industry",
+        "BookBub (7 weeks): Built a docker swarm to allow devs to spin up mini clusters for their feature branches to allow other employees to exercise those new features.  Setup a test harness for testing ansible recipes using test-kitchen",
+        "Zensight (3 weeks): Postgresql optimization"
+      ]
+    },
+    {
       "company": "Datto",
       "position": "VP of Cloud Services",
       "website": "http://datto.com",
