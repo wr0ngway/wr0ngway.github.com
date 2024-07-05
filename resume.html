@@ -1,797 +1,776 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Matthew Conway</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link href='http://fonts.googleapis.com/css?family=Lato:400,500,600,700|Open+Sans:400,500,600,700' rel='stylesheet' type='text/css'>
-    <style>
-      .clear-margin {
-  margin: 0;
+    <title>Resume of Matthew Conway</title>
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
+    <style type="text/css">
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+@charset "utf-8";
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+
+body{
+  font-family: 'Open Sans', Arial, Tahoma;
+  font-weight: 400;
+  color: #363636;
+  background: #334960;
 }
-.space-top {
-  margin-top: 10px;
+blockquote {
+  font-size: 1em;
 }
-.space-right {
-  margin-right: 10px;
+
+.container{
+  margin-top: 80px;
+  margin-bottom: 15px;
+  background: #fff;
 }
-.icon-left {
-  margin-right: 5px;
+
+#photo-header{
+  margin-top: -75px;
 }
-.icon-right {
-  margin-left: 5px;
-}
-.labels {
-  word-spacing: 5px;
-  line-height: 2;
-}
-.label-keyword {
-  display: inline-block;
-  background: #7eb0db;
-  color: white;
-  font-size: 0.9em;
+#photo{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
   padding: 5px;
-  border: 1px solid #357ebd;
-}
-.link-disguise {
-  color: inherit;
-}
-.link-disguise:hover {
-  color: inherit;
-}
-@media (max-width: 992px) {
-  .clear-margin-sm {
-    margin-bottom: 0;
-  }
-}
-body {
-  font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background: #f0f0f0;
-  color: #333333;
-  font-size: 16px;
-}
-.text-bolder {
-  font-weight: bold;
-}
-@media only screen {
-  .container {
-    max-width: 50em;
-  }
-}
-@media (max-width: 480px) {
-  ul {
-    padding-left: 25px;
-  }
-  /*
-        .mobile-title {
-            display: inline-block;
-            margin-left: 5px;
-            font-weight: bold;
-            text-transform: uppercase;
-            vertical-align: middle;
-        }
-*/
-  .background-details {
-    display: block;
-  }
-  .background-details .icon {
-    max-width: inherit;
-    min-width: inherit;
-    text-align: left;
-  }
-  .background-details .icon,
-  .background-details .info {
-    display: block;
-    padding: 10px 0;
-  }
-  .background-details .title {
-    display: none;
-  }
-  .card-nested {
-    padding: 5px 0;
-  }
-}
-.profile-card {
-  display: table;
-  width: 100%;
-}
-.profile-pic {
-  display: table-cell;
-  vertical-align: top;
-  padding: 1rem 4rem 0 0 ;
-}
-.profile-pic img {
-  width: 100px;
-  height: 100px;
-}
-.contact-details {
-  display: table-cell;
-}
-.contact-details .detail {
+  background: #334960;
   display: inline-block;
-  line-height: 2;
-  margin-right: 2rem;
 }
-.contact-details .detail .icon {
-  padding-right: 7px;
-  color: #888;
+#photo img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
 }
-.contact-details .detail .info {
-  font-size: 0.8em;
+#text-header h1{
+  margin: 0;
+  padding: 0;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -1px;
 }
-.social-links {
-  line-height: 2.5;
+#text-header h1::first-line{
+  font-size: 1.5em;
+  font-weight: 800;
+  line-height: 1.5em;
 }
-.social-link {
+#text-header h1 span{
+  color: #334960;
+  opacity: 0.7;
+}
+#text-header h1 sup{
+  opacity: 0.5;
+}
+#text-header:after{
+  width: 100%;
+  height: 3px;
+  border-bottom: 1px solid #ddd;
+  margin-top: 15px;
+  content: '';
   display: block;
 }
-.social-link span {
-  display: inline-block;
-  vertical-align: middle;
+
+.box{
+  padding-bottom: 10px;
+  margin-bottom: 25px;
 }
-.social-link:hover,
-.social-link:focus {
-  text-decoration: none;
+.box h2{
+  color: #227c74;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
 }
-.social-link .fa {
-  text-align: center;
-  width: 2em;
-}
-.fa-github {
-  color: #454545;
-}
-.fa-github:hover,
-.fa-github:focus {
-  text-decoration: none;
-  color: #2b2b2b;
-}
-.fa-twitter {
-  color: #33ccff;
-}
-.fa-twitter:hover,
-.fa-twitter:focus {
-  text-decoration: none;
-  color: #00bfff;
-}
-.fa-rss {
-  color: #f36f24;
-}
-.fa-rss:hover,
-.fa-rss:focus {
-  text-decoration: none;
-  color: #d8560c;
-}
-.fa-linkedin {
-  color: #007bb6;
-}
-.fa-linkedin:hover,
-.fa-linkedin:focus {
-  text-decoration: none;
-  color: #005983;
-}
-.fa-skype {
-  color: #12a5f4;
-}
-.fa-skype:hover,
-.fa-skype:focus {
-  text-decoration: none;
-  color: #0986ca;
-}
-.fa-stack-overflow {
-  color: #8e8e92;
-}
-.fa-stack-overflow:hover,
-.fa-stack-overflow:focus {
-  text-decoration: none;
-  color: #747479;
-}
-.fa-soundcloud {
-  color: #e8822d;
-}
-.fa-soundcloud:hover,
-.fa-soundcloud:focus {
-  text-decoration: none;
-  color: #cc6916;
-}
-.fa-pinterest {
-  color: #bd091f;
-}
-.fa-pinterest:hover,
-.fa-pinterest:focus {
-  text-decoration: none;
-  color: #8c0717;
-}
-.fa-vimeo {
-  color: #17b3e8;
-}
-.fa-vimeo:hover,
-.fa-vimeo:focus {
-  text-decoration: none;
-  color: #128fba;
-}
-.fa-behance {
-  color: #2c98cf;
-}
-.fa-behance:hover,
-.fa-behance:focus {
-  text-decoration: none;
-  color: #2379a5;
-}
-.fa-codepen {
-  color: #1c1c1c;
-}
-.fa-codepen:hover,
-.fa-codepen:focus {
-  text-decoration: none;
-  color: #020202;
-}
-.fa-foursquare {
-  color: #fa4778;
-}
-.fa-foursquare:hover,
-.fa-foursquare:focus {
-  text-decoration: none;
-  color: #f91554;
-}
-.fa-reddit {
-  color: #545454;
-}
-.fa-reddit:hover,
-.fa-reddit:focus {
-  text-decoration: none;
-  color: #3b3b3b;
-}
-.fa-spotify {
-  color: #acd200;
-}
-.fa-spotify:hover,
-.fa-spotify:focus {
-  text-decoration: none;
-  color: #829f00;
-}
-.fa-dribbble {
-  color: #ce366f;
-}
-.fa-dribbble:hover,
-.fa-dribbble:focus {
-  text-decoration: none;
-  color: #a82959;
-}
-.fa-facebook {
-  color: #4b6daa;
-}
-.fa-facebook:hover,
-.fa-facebook:focus {
-  text-decoration: none;
-  color: #3b5687;
-}
-.fa-angellist {
-  color: #000000;
-}
-.fa-angellist:hover,
-.fa-angellist:focus {
-  text-decoration: none;
-  color: #000000;
-}
-.fa-bitbucket {
-  color: #205081;
-}
-.fa-bitbucket:hover,
-.fa-bitbucket:focus {
-  text-decoration: none;
-  color: #163758;
-}
-.fa-google-plus {
-  color: #bf2a1d;
-}
-.fa-google-plus:hover,
-.fa-google-plus:focus {
-  text-decoration: none;
-  color: #932016;
-}
-.background-card h4 {
-  font-variant: small-caps;
-  color: #777777;
-  border-bottom: 1px solid #eeeeee;
-  padding-bottom: 1em;
-  margin-bottom: 1em;
-  line-height: 1.2;
-}
-.background-card h4:not(:first-child) {
-  margin-top: 2em;
-}
-h4 > .fa,
-h4 > .title {
-  display: inline-block;
-  vertical-align: baseline;
-}
-h4 > .fa {
-  width: 4rem;
-}
-.content {
-  line-height: 1.5;
-}
-.card {
-  background: #ffffff;
-  border: 1px solid #e6e6e6;
-  border-radius: 3px;
-  padding: 2em 3.5em;
-}
-.card-nested {
-  padding: 1.5rem 0 1.5rem 4.2rem;
-}
-.card-wrapper {
-  padding: 5px;
-}
-.enumeration:not(:last-child):after {
-  content: ", ";
-}
-.enumeration:last-child:after {
-  content: ".";
-}
-@media only screen and (max-width: 768px) {
-  .profile-card {
-    display: block;
-  }
-  .contact-details,
-  .profile-pic {
-    display: block;
-    text-align: center;
-  }
-  .card-nested {
-    padding-left: 0;
-  }
-}
-@media only screen and (max-width: 480px) {
-  .contact-details .detail {
-    display: block;
-  }
-}
-.card-skills {
+
+#awards,
+#education{
+  margin-top: 20px;
+  margin-bottom: 0;
   position: relative;
+  padding: 1em 0;
+  list-style: none;
 }
-.skill-info {
-  margin-left: 20px;
+#awards:before,
+#education:before {
+  width: 5px;
+  height: 100%;
+  position: absolute;
+  left: 35px;
+  top: 0;
+  content: ' ';
+  display: block;
+  background: #32475c;
+  background: -moz-linear-gradient(top,  #ffffff 0%, #32475c 7%, #32475c 89%, #ffffff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(7%,#32475c), color-stop(89%,#32475c), color-stop(100%,#ffffff));
+  background: -webkit-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: -o-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: -ms-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: linear-gradient(to bottom,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
 }
-@media only screen and (min-width: 768px) {
-  .skill {
-    border-left: 9px solid #555555;
-  }
-  .skill.beginner {
-    height: 50%;
-    border-color: #e74c3c;
-  }
-  .skill.intermediate {
-    height: 70%;
-    border-color: #f1c40f;
-  }
-  .skill.advanced {
-    border-color: #5cb85c;
-  }
-  .skill.master {
-    border-color: black;
-  }
+#awards li,
+#education li{
+  width: 100%;
+  z-index: 2;
+  position: relative;
+  float: left;
 }
-@media (max-width: 768px) {
-  .quote {
-    font-size: inherit;
-  }
+#awards .year,
+#education .year{
+  width: 14%;
+  background: #fff;
+  padding: 10px;
+  font-weight: 700;
+  display: inline-block;
 }
-@media print {
-  body {
-    font-size: 10pt;
-  }
-  a[href]:after {
-    content: none !important;
-  }
-  .pagebreak {
-    page-break-before: always;
-  }
-  .background-card h4:not(:first-child) {
-    margin-top: 0 !important;
-  }
-  .card {
-    border: 0;
-    padding: 0;
-  }
-  .container {
-    max-width: 100%;
-    width: 100%;
-  }
-  .contact-details .detail .icon {
-    color: #888 !important;
-  }
-  .background-card h4 {
-    padding-bottom: 0.5em;
-    margin-bottom: 0.5em;
-    margin-top: 1em !important;
-  }
-  h4 > .fa {
-    display: none !important;
-  }
-  .card-nested {
-    padding: .5rem 0 .5rem 0;
-  }
-  .labels {
-    display: inline;
-  }
-  .skill-info {
-    margin-left: 0;
-  }
-  blockquote {
-    font-size: 100%;
-  }
+#awards .description,
+#education .description{
+  width: 83%;
+  display: inline-block;
+  background: #eee;
+  margin-bottom: 10px;
+  position: relative;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+#awards .description:after,
+#education .description:after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  right: 0;
+  left: -16px;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  border-right-color: #eee;
+  border-width: 8px;
+  pointer-events: none;
+}
+#awards .description h3,
+#education .description h3{
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+#awards .description p,
+#education .description p{
+  margin-top: 5px;
+  padding: 0;
+}
+
+.job{
+  margin-bottom: 15px;
+}
+.job .details {
+  margin-left: 3%;
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #eee;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.job .where{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.job .year{
+  opacity: 0.7;
+}
+.job .profession{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.job .description{
+  line-height: 1.5em;
+}
+.job .highlights{
+  padding: 5px 0;
+  font-weight: bold;
+}
+.job .job-details {
+  padding-left: 5%;
+  width: 100%;
+}
+.publication {
+  margin-bottom: 0;
+}
+.publication .name{
+  font-size: 1em;
+  font-weight: bold;
+}
+.publication .year{
+    opacity: 0.7;
+}
+.publication p{
+  margin: 0;
+  padding-top: 10px;
+}
+
+.contact-item{
+  width: 100%;
+  float: left;
+}
+.contact-item .icon{
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  color: #32475c;
+  background: #eee;
+}
+.contact-item:last-child .icon{
+  border-bottom: none;
+}
+.contact-item .title{
+  width: 80%;
+  width: calc(100% - 55px);
+  font-weight: 700;
+  opacity: 0.9;
+}
+.contact-item .title.only{
+  margin-top: 10px;
+}
+.contact-item .description{
+  width: 80%;
+  width: calc(100% - 55px);
+  color: #334960;
+}
+
+.item-interests,
+.item-skills{
+  height: 30px;
+  color: #334960;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.interest,
+.skill{
+  color: #fff;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  background: #32475c;
+  position: relative;
+  font-size: .85em;
+}
+.skill-level {
+  background-color: #227c74;
+  border-radius: 4px;
+  color: #fff;
+  padding: 1px 8px;
+  font-size: .75em;
+  position: absolute;
+  margin: 1px 10px;
+}
+
+#language-skills .skill{
+  margin: 10px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
 }
 
     </style>
+    <style type="text/css" media="print">
+    body {
+  font-size: .95em;
+  -webkit-print-color-adjust: exact;
+}
+
+a[href]:after {
+  content: none !important;
+}
+
+#photo{
+  display: none;
+}
+
+.box {
+  margin-bottom: -10px;
+}
+
+blockquote,
+#education,
+#awards,
+.contact-item,
+.publication,
+.skills,
+.interests {
+  page-break-inside: avoid;
+}
+
+.col-sm-5{
+  width: 40%;
+  padding: 0 15px;
+}
+
+.col-sm-7{
+  width: 60%;
+  padding: 0 15px;
+}
+
+.skills .col-sm-offset-1,
+.interests .col-sm-offset-1{
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+
+#education {
+  margin: 0;
+  margin-bottom: -20px;
+}
+#awards:before,
+#education:before {
+  background: none;
+}
+
+#awards .description,
+#education .description,
+.job .details {
+  border: 1px solid #eee;
+}
+.publication,
+.publication .panel-heading,
+.publication .name{
+  margin: 0;
+  padding: 0 5px;
+  border: none;
+}
+.publication .panel-body {
+  padding: 0 10px;
+  margin: 0;
+}
+
+.badge {
+  margin: 0;
+}
+
+.list-group-item{
+  border: none;
+  margin: 0;
+  padding: 5px 15px;
+}
+.list-group-item:after{
+  content: '';
+  position: absolute;
+  top: 8px;
+  right: 0;
+  left: -1px;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  border-right-color: #999;
+  border-width: 4px;
+  pointer-events: none;
+ }
+
+    </style>
   </head>
-
-  <body itemscope itemtype="http://schema.org/Person">
-    
+  <body>
     <div class="container">
-      <section class="row">
-        <div class="card-wrapper">
-          <div class="card">
-            <div class="profile-card">
-                <div class="profile-pic">
-                  <img class="media-object img-circle center-block"  data-src="holder.js/100x100"
-                    alt="Matthew Conway" src="http://www.gravatar.com/avatar/962f375eb3baf853485fdfcfe2277857" itemprop="image">
-                </div>
-                <div class="contact-details">
-                  <div class="name-and-profession">
-                    <h3 class="text-bolder name" itemprop="name"> Matthew Conway</h3>
-                    <h5 class="text-muted" itemprop="jobTitle">CTO</h5>
-                  </div>
-
-                    <div class="detail">
-                      <span class="icon">
-                        <i class="fa fa-lg fa-envelope"></i>
-                      </span>
-
-                      <span class="info">
-                        <a href="mailto:matt@conwaysplace.com" class="link-disguise" itemprop="email">matt@conwaysplace.com</a>
-                      </span>
-                    </div>
-
-                    <div class="detail">
-                      <span class="icon">
-                        <i class="fa fa-lg fa-phone"></i>
-                      </span>
-
-                      <a href="tel://(781) 333-8884" class="link-disguise info" itemprop="telephone">
-                        (781) 333-8884
-                      </a>
-                    </div>
-
-                    <div class="detail">
-                      <span class="icon">
-                        <i class="fa fa-lg fa-map-marker"></i>
-                      </span>
-
-                        <span class="info">
-                          Weymouth, Massachusetts,
-                          US
-                        </span>
-                    </div>
-
-                </div>
-                
+      <div class="row">
+        <div class="col-xs-12">
+          <div id="photo-header" class="text-center">
+            <!-- PHOTO (AVATAR) -->
+            <div id="photo">
+              <img src="https:&#x2F;&#x2F;2.gravatar.com&#x2F;avatar&#x2F;c66dc5368643b9f73908635f69384a161b86ca038fbca058a1e333a4d0c9e578?size&#x3D;512" alt="avatar">
             </div>
-            <hr>
-
-            <div class="social-links">
-                <a class="social-link" href="https://github.com/wr0ngway" target="_blank">
-                  <span class="fa fa-github fa-2x"></span> 
-                  <span class="social-link-text">https://github.com/wr0ngway</span>
-                </a>
-                <a class="social-link" href="http://www.linkedin.com/in/matthewrbconway" target="_blank">
-                  <span class="fa fa-linkedin fa-2x"></span> 
-                  <span class="social-link-text">http://www.linkedin.com/in/matthewrbconway</span>
-                </a>
-                <a class="social-link" href="https://twitter.com/mattconway" target="_blank">
-                  <span class="fa fa-twitter fa-2x"></span> 
-                  <span class="social-link-text">https://twitter.com/mattconway</span>
-                </a>
+            <div id="text-header" >
+              <h1>Matthew Conway<br><span>CTO</span></h1>
             </div>
           </div>
-
         </div>
-      </section>
-
-      <section class="row">
-        <div class="card-wrapper">
-          <div class="card background-card">
-
-            <h4 id="about"> <span class="fa fa-lg fa-user"></span> <span class="title">About</span> </h4>
-            <div class="card-nested" itemprop="description">
-              <p> An individual with diverse knowledge in advanced computing technologies, with extensive experience as an executive in Boston Technology startups.  Most effective at bootstrapping software startups at both a team and technology level, with enough of a business sense to help tune an initial concept into a success, and define a long term technology strategy </p>
-            </div>
-
-            <h4 id="work-experience"> <span class="fa fa-lg fa-pencil-square-o"></span> <span class="title">Work Experience</span> </h4>
-            <ul class="list-unstyled">
-                <li class="card-nested">
-                  <div class="content has-sidebar">
-                    <p class="clear-margin-sm">
-                      <strong>President</strong>,
-                      <a href="http://simplygenius.com" target="_blank">Simply Genius LLC</a>
-                    </p>
-                    <p class="text-muted">
-                      <small>
-                        <span class="space-right"> Oct 2015 -  Jan 2018  </span>
-                         <span> <i class="fa fa-clock-o icon-left"></i> 2 years 3 months </span> 
-                      </small>
-                    </p>
-                    <p>Various consulting engagements</p>
-                      <ul>
-                          <li> Talla: Architect for Talla&#x27;s blockchain product (botchain) </li>
-                          <li> Cloudlock: Instrumental in redefining and implementing core infrastructure to enable FEDRAMP compliance </li>
-                          <li> Drift: Used terraform to define a multi-account AWS infrastructure </li>
-                          <li> BetterOutcomes: Used terraform to define a multi-account AWS infrastructure following strong security compliance guidelines for the healthcare industry </li>
-                          <li> BookBub: Built a docker swarm to allow devs to spin up mini clusters for their feature branches to allow other employees to exercise those new features.  Setup a test harness for testing ansible recipes using test-kitchen </li>
-                          <li> Zensight: Postgresql optimization </li>
-                      </ul>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-7">
+          <!-- ABOUT ME -->
+          <div class="box">
+            <h2><i class="fas fa-user ico"></i> About</h2>
+            <p>An individual with diverse knowledge in advanced computing technologies, with extensive experience as an executive in Boston Technology startups.  Most effective at bootstrapping software startups at both a team and technology level, with enough of a business sense to help tune an initial concept into a success, and define a long term technology strategy</p>
+          </div>
+          <!-- WORK EXPERIENCE -->
+          <div class="box">
+            <h2><i class= "fas fa-suitcase ico"></i> Work Experience</h2>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      CloudTruth
+                    </div>
+                    <div class="year">February 2018 – July 2024</div>
                   </div>
-
-                </li>
-                <li class="card-nested">
-                  <div class="content has-sidebar">
-                    <p class="clear-margin-sm">
-                      <strong>VP of Cloud Services</strong>,
-                      <a href="http://datto.com" target="_blank">Datto</a>
-                    </p>
-                    <p class="text-muted">
-                      <small>
-                        <span class="space-right"> Dec 2014 -  Sep 2015  </span>
-                         <span> <i class="fa fa-clock-o icon-left"></i> 8 months </span> 
-                      </small>
-                    </p>
-                    <p>Assisted in the integration of Backupify post-acquisition by Datto</p>
-                      <ul>
-                          <li> Completed outstanding deliverables and transitioned mindshare </li>
-                          <li> Assisted and Advised in integrating teams and technologies </li>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Co-Founder&#x2F;CTO</div>
+                    <div class="description">
+                      Raised funds, built the initial team, helped define strategy, culture, and process, and set the engineering patterns to deliver the desired products
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Raised venturing funding on the concept of a configuration data platform</li>
+                        <li class="list-group-item">Built and managed initial engineering team, and set up the effective engineering practices</li>
+                        <li class="list-group-item">Performed multiple customer prospect interviews to introduce the concept and get feedback on improving it</li>
+                        <li class="list-group-item">Defined initial product concepts and worked with application engineers to deliver it</li>
+                        <li class="list-group-item">Setup initial system architecture and devops tooling to deliver the application on AWS</li>
+                        <li class="list-group-item">Evolved system over time to improve its reliability and scale</li>
+                        <li class="list-group-item">Integrated an additonal engineering team acquired through a merger</li>
                       </ul>
+                    </div>
                   </div>
-
-                </li>
-                <li class="card-nested">
-                  <div class="content has-sidebar">
-                    <p class="clear-margin-sm">
-                      <strong>CTO/VP Engineering</strong>,
-                      <a href="http://backupify.com" target="_blank">Backupify</a>
-                    </p>
-                    <p class="text-muted">
-                      <small>
-                        <span class="space-right"> Feb 2010 -  Dec 2014  </span>
-                         <span> <i class="fa fa-clock-o icon-left"></i> 4 years 10 months </span> 
-                      </small>
-                    </p>
-                    <p>Built the initial team, helped define strategy, culture, and process, and set the engineering patterns to take us through a successful exit</p>
-                      <ul>
-                          <li> Built and managed initial engineering team, and set up the effective engineering practices that persist to date </li>
-                          <li> Engineered enough of a system to prove the business idea using Ruby, Rails, Cassandra, Postgresql, Redis, all running on AWS </li>
-                          <li> Evolved system over time to improve its reliability and scale </li>
-                          <li> Built a distributed, asynchronous worker processing abstraction on top of Qless/Redis </li>
-                          <li> Built a storage abstraction layer to allow use of different storage backends (S3, Swift, etc) </li>
-                          <li> Built a metrics collection and display system using collectd, graphite, statsd, then influxdb, grafana </li>
-                          <li> Built a log collection and display system using rsyslog, graylog, then logstash, elasticsearch, kibana </li>
-                          <li> Built a database tenant management service backed by postgresql and S3 </li>
-                          <li> Defined and prototyped the next generation SaaS backup architecture to allow backups/exports/restores for any REST-like SaaS API through a declarative description of it </li>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      Simply Genius LLC
+                    </div>
+                    <div class="year">October 2015 – January 2018</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">President</div>
+                    <div class="description">
+                      Various consulting engagements
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Talla: Architect for Talla's blockchain product (botchain)</li>
+                        <li class="list-group-item">Cloudlock: Instrumental in redefining and implementing core infrastructure to enable FEDRAMP compliance</li>
+                        <li class="list-group-item">Drift: Used terraform to define a multi-account AWS infrastructure</li>
+                        <li class="list-group-item">BetterOutcomes: Used terraform to define a multi-account AWS infrastructure following strong security compliance guidelines for the healthcare industry</li>
+                        <li class="list-group-item">BookBub: Built a docker swarm to allow devs to spin up mini clusters for their feature branches to allow other employees to exercise those new features.  Setup a test harness for testing ansible recipes using test-kitchen</li>
+                        <li class="list-group-item">Zensight: Postgresql optimization</li>
                       </ul>
+                    </div>
                   </div>
-
-                </li>
-                <li class="card-nested">
-                  <div class="content has-sidebar">
-                    <p class="clear-margin-sm">
-                      <strong>VP Engineering</strong>,
-                      <a href="http://mobicious.com" target="_blank">Mobicious</a>
-                    </p>
-                    <p class="text-muted">
-                      <small>
-                        <span class="space-right"> Apr 2007 -  Dec 2009  </span>
-                         <span> <i class="fa fa-clock-o icon-left"></i> 2 years 8 months </span> 
-                      </small>
-                    </p>
-                    <p>Built and managed a local engineering team for creating the mobicious product suite</p>
-                      <ul>
-                          <li> Defined the company&#x27;s strategy for building within the Amazon Cloud </li>
-                          <li> Authored the rubber open source project for managing cloud provisioning and deployment </li>
-                          <li> Architected and helped engineer mobicious.com, a content directory for mobile phones </li>
-                          <li> Architected and helped engineer snapmylife.com, a mobile social networking site for sharing photos </li>
-                          <li> Architected and helped engineer snap2twitter.com, a twitter photo sharing site built using a photo sharing platform/api extracted from snapmylife.com </li>
-                          <li> Author of a provisional patent for accelerating mobile ad serving </li>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      Datto
+                    </div>
+                    <div class="year">January 2015 – September 2015</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">VP of Cloud Services</div>
+                    <div class="description">
+                      Assisted in the integration of Backupify post-acquisition by Datto
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Completed outstanding deliverables and transitioned mindshare</li>
+                        <li class="list-group-item">Assisted and Advised in integrating teams and technologies</li>
                       </ul>
+                    </div>
                   </div>
-
-                </li>
-                <li class="card-nested">
-                  <div class="content has-sidebar">
-                    <p class="clear-margin-sm">
-                      <strong>Senior Engineer, Architect, Team Lead</strong>,
-                      <a href="http://tripadvisor.com" target="_blank">TripAdvisor</a>
-                    </p>
-                    <p class="text-muted">
-                      <small>
-                        <span class="space-right"> Jan 2004 -  Apr 2007  </span>
-                         <span> <i class="fa fa-clock-o icon-left"></i> 3 years 2 months </span> 
-                      </small>
-                    </p>
-                    <p>Development and leader on various features for the TripAdvisor website</p>
-                      <ul>
-                          <li> System design/maintenance/integration for the TripAdvisor production servers </li>
-                          <li> Designed the infrastructure for a Service Oriented Architecture to make it easy to create, change and manage clusters of backend services. This system is used across all of the TripAdvisor products </li>
-                          <li> Built the TripAdvisor Inside product ( http://www.tripadvisor.com/TravelHome ) - a wiki for travel guidebook information integrated into TripAdvisor. Designed, and did initial build using open source engines (XWiki, TinyMCE) and later led a team of 3 engineers in building out the product. This was designed to be highly sclable using a multi-tier architecture. The frontend consisted of Servlets+velocity for html rendering, with a SOA layer to a cluster of backend java services using a postgresql DB </li>
-                          <li> Built a Search Engine Marketing (SEM) management system in Java.  This system was responsible for driving a significant amount of Tripadvisor&#x27;s revenue, with a high rate of return </li>
-                          <li> Wrote a number of web crawlers to aggregate hotel data from external web sites like Fodors, Frommers, Expedia, etc. As a side effect of this, developed a crawler framework that made it easier to scrape data by xhtmlizing the crawled pages and applying xpath expressions to extract the relevant information. This resulted in much quicker turn around time for new crawlers, and minimal code changes needed to update existing ones </li>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      Backupify
+                    </div>
+                    <div class="year">March 2010 – December 2014</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">CTO&#x2F;VP Engineering</div>
+                    <div class="description">
+                      Built the initial team, helped define strategy, culture, and process, and set the engineering patterns to take us through a successful exit
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Built and managed initial engineering team, and set up the effective engineering practices that persist to date</li>
+                        <li class="list-group-item">Engineered enough of a system to prove the business idea using Ruby, Rails, Cassandra, Postgresql, Redis, all running on AWS</li>
+                        <li class="list-group-item">Evolved system over time to improve its reliability and scale</li>
+                        <li class="list-group-item">Built a distributed, asynchronous worker processing abstraction on top of Qless/Redis</li>
+                        <li class="list-group-item">Built a storage abstraction layer to allow use of different storage backends (S3, Swift, etc)</li>
+                        <li class="list-group-item">Built a metrics collection and display system using collectd, graphite, statsd, then influxdb, grafana</li>
+                        <li class="list-group-item">Built a log collection and display system using rsyslog, graylog, then logstash, elasticsearch, kibana</li>
+                        <li class="list-group-item">Built a database tenant management service backed by postgresql and S3</li>
+                        <li class="list-group-item">Defined and prototyped the next generation SaaS backup architecture to allow backups/exports/restores for any REST-like SaaS API through a declarative description of it</li>
                       </ul>
+                    </div>
                   </div>
-
-                </li>
-                <li class="card-nested">
-                  <div class="content has-sidebar">
-                    <p class="clear-margin-sm">
-                      <strong>Software Engineer</strong>,
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      Mobicious
+                    </div>
+                    <div class="year">May 2007 – December 2009</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">VP Engineering</div>
+                    <div class="description">
+                      Built and managed a local engineering team for creating the mobicious product suite
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Defined the company's strategy for building within the Amazon Cloud</li>
+                        <li class="list-group-item">Authored the rubber open source project for managing cloud provisioning and deployment</li>
+                        <li class="list-group-item">Architected and helped engineer mobicious.com, a content directory for mobile phones</li>
+                        <li class="list-group-item">Architected and helped engineer snapmylife.com, a mobile social networking site for sharing photos</li>
+                        <li class="list-group-item">Architected and helped engineer snap2twitter.com, a twitter photo sharing site built using a photo sharing platform/api extracted from snapmylife.com</li>
+                        <li class="list-group-item">Author of a provisional patent for accelerating mobile ad serving</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      TripAdvisor
+                    </div>
+                    <div class="year">February 2004 – April 2007</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Senior Engineer, Architect, Team Lead</div>
+                    <div class="description">
+                      Development and leader on various features for the TripAdvisor website
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">System design/maintenance/integration for the TripAdvisor production servers</li>
+                        <li class="list-group-item">Designed the infrastructure for a Service Oriented Architecture to make it easy to create, change and manage clusters of backend services. This system is used across all of the TripAdvisor products</li>
+                        <li class="list-group-item">Built the TripAdvisor Inside product ( http://www.tripadvisor.com/TravelHome ) - a wiki for travel guidebook information integrated into TripAdvisor. Designed, and did initial build using open source engines (XWiki, TinyMCE) and later led a team of 3 engineers in building out the product. This was designed to be highly sclable using a multi-tier architecture. The frontend consisted of Servlets+velocity for html rendering, with a SOA layer to a cluster of backend java services using a postgresql DB</li>
+                        <li class="list-group-item">Built a Search Engine Marketing (SEM) management system in Java.  This system was responsible for driving a significant amount of Tripadvisor's revenue, with a high rate of return</li>
+                        <li class="list-group-item">Wrote a number of web crawlers to aggregate hotel data from external web sites like Fodors, Frommers, Expedia, etc. As a side effect of this, developed a crawler framework that made it easier to scrape data by xhtmlizing the crawled pages and applying xpath expressions to extract the relevant information. This resulted in much quicker turn around time for new crawlers, and minimal code changes needed to update existing ones</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
                       i2 Technologies
-                    </p>
-                    <p class="text-muted">
-                      <small>
-                        <span class="space-right"> Dec 1998 -  Dec 2003  </span>
-                         <span> <i class="fa fa-clock-o icon-left"></i> 4 years 11 months </span> 
-                      </small>
-                    </p>
-                    <p>C++/Java developer on products, leader on cross-product integration</p>
-                      <ul>
-                          <li> Rewrote a number of Web UIs to use the Jakarta struts/tiles framework instead of a homegrown one that was no longer being maintained </li>
-                          <li> Designed and implemented a JMX management layer around the Jython scripting framework, to allow distributed monitoring and management of i2 processes. </li>
-                          <li> Wrote a Web UI equivalent to the Swing UI for the Jython scripting framework </li>
-                          <li> Designed and implemented a cross platform scripting utility used across i2 to ease product integration. This was implemented in Java with an optional Swing UI, and used Jython as the scripting engine </li>
-                          <li> Worked on the integration team responsible for providing a framework for integrating all of i2&#x27;s products. This team provided an abstraction layer between i2 products and various messaging technologies by using xml metadata to describe the interfaces to the products </li>
-                          <li> Designed and implemented a project configuration mechanism that unified development and production configuration. This was done using XML configuration files transformed with XSLT into a multitude of third party configuration files. This allowed for a single point of configuration with easy application by executing a single command. Designed and implemented project build management infrastructure used by development teams for managing development projects. This was built using the Apache Ant utility, heavily customized with a number of custom tasks </li>
-                          <li> Part of the development team for a web marketplace for logistic producers/consumers (www.freightmatrix.com). Used Java/EJB/JSP to implement a flexible multi-tier architecture. Ported C/C++ code for four of i2&#x27;s applications to work natively under HP-UX 11&#x27;s 32 bit architecture. Extended port to HP&#x27;s 64 bit architecture. Ported to the GCC compiler to satisfy the need for these applications on other platforms including AIX and Solaris </li>
-                          <li> Worked on adding new functionality to the C++ engine used for optimizing shipping logistics within many of i2&#x27;s products </li>
-                      </ul>
+                    </div>
+                    <div class="year">January 1999 – January 2004</div>
                   </div>
-
-                </li>
-                <li class="card-nested">
-                  <div class="content has-sidebar">
-                    <p class="clear-margin-sm">
-                      <strong>Software Engineer</strong>,
-                      <a href="C++/Java developer on products" target="_blank">American Management Systems</a>
-                    </p>
-                    <p class="text-muted">
-                      <small>
-                        <span class="space-right"> Aug 1995 -  Dec 1998  </span>
-                         <span> <i class="fa fa-clock-o icon-left"></i> 3 years 3 months </span> 
-                      </small>
-                    </p>
-                    <p>Built the team, Helped define strategy, and set the engineering patterns to take us to a successful exit</p>
-                      <ul>
-                          <li> Developed a Generic CORBA client in Java to aid in testing our CORBA C++ servers. The client would dynamically determine the properties of IDL interfaces at runtime and allow the user to interactively call methods on those interfaces in a graphical manner. This was done by using either introspection of Java stub code generated by the Java IDL compiler or by dynamically reading and parsing the IDL retrieved from a CORBA interface repository </li>
-                          <li> AMSCAT (AMS Center for Advanced Technology) Associate. Used Gemstone/J to write an application server in order to determine its viability as a product for use by AMS. Integrated this server with software written by other Associates to tackle a problem experienced in one of AMS&#x27;s business projects </li>
-                          <li> C++ developer on the Quantum project at BellSouth. The Quantum project involved implementing a flexible billing system using a three tiered architecture. This system consisted of a Smalltalk front end using CORBA to access a C++ middle tier. The C++ middle tier is a scalable, distributed architecture accessing a Sybase backend through the combination of an object persistence framework and Rogue Wave&#x27;s DBTools.h++. Worked closely with clients to design new functionality for the C++ middle tier and implemented many of these changes </li>
-                          <li> Configuration management on the FORCE2000 Project for British Telecom. Liaison between the configuration management team and developers. Responsible for creating a suite of unix scripts for accessing a NT PVCS archive from a DEC Alpha Ultrix machine. These scripts used a combination of NFS, RCP and RSH/REXEC to transfer the files and check them into and out of the archive by remotely executing the Windows NT PVCS executables </li>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Software Engineer</div>
+                    <div class="description">
+                      C++/Java developer on products, leader on cross-product integration
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Rewrote a number of Web UIs to use the Jakarta struts/tiles framework instead of a homegrown one that was no longer being maintained</li>
+                        <li class="list-group-item">Designed and implemented a JMX management layer around the Jython scripting framework, to allow distributed monitoring and management of i2 processes.</li>
+                        <li class="list-group-item">Wrote a Web UI equivalent to the Swing UI for the Jython scripting framework</li>
+                        <li class="list-group-item">Designed and implemented a cross platform scripting utility used across i2 to ease product integration. This was implemented in Java with an optional Swing UI, and used Jython as the scripting engine</li>
+                        <li class="list-group-item">Worked on the integration team responsible for providing a framework for integrating all of i2's products. This team provided an abstraction layer between i2 products and various messaging technologies by using xml metadata to describe the interfaces to the products</li>
+                        <li class="list-group-item">Designed and implemented a project configuration mechanism that unified development and production configuration. This was done using XML configuration files transformed with XSLT into a multitude of third party configuration files. This allowed for a single point of configuration with easy application by executing a single command. Designed and implemented project build management infrastructure used by development teams for managing development projects. This was built using the Apache Ant utility, heavily customized with a number of custom tasks</li>
+                        <li class="list-group-item">Part of the development team for a web marketplace for logistic producers/consumers (www.freightmatrix.com). Used Java/EJB/JSP to implement a flexible multi-tier architecture. Ported C/C++ code for four of i2's applications to work natively under HP-UX 11's 32 bit architecture. Extended port to HP's 64 bit architecture. Ported to the GCC compiler to satisfy the need for these applications on other platforms including AIX and Solaris</li>
+                        <li class="list-group-item">Worked on adding new functionality to the C++ engine used for optimizing shipping logistics within many of i2's products</li>
                       </ul>
-                  </div>
-
-                </li>
-            </ul>
-
-            <h4 id="skills"> <span class="fa fa-lg fa-code"></span> <span class="title">Skills</span> </h4>
-            <ul class="list-unstyled">
-                <li class="card-nested skill advanced">
-                  <strong>Systems Engineering (advanced):</strong> 
-                   <span class="enumeration">Distributed Architectures</span>  <span class="enumeration">Orchestration</span>  <span class="enumeration">DevOps</span>  <span class="enumeration">Infrastructure</span>  <span class="enumeration">Metrics and Monitoring</span> 
-              </li>
-                <li class="card-nested skill advanced">
-                  <strong>Software Development (advanced):</strong> 
-                   <span class="enumeration">Ruby</span>  <span class="enumeration">Rails</span>  <span class="enumeration">Javascript (adequate)</span>  <span class="enumeration">Python (rusty)</span>  <span class="enumeration">Java (rusty)</span>  <span class="enumeration">C/C++ (rusty)</span>  <span class="enumeration">Go (academic)</span> 
-              </li>
-                <li class="card-nested skill advanced">
-                  <strong>Software Engineering (advanced):</strong> 
-                   <span class="enumeration">Agile</span>  <span class="enumeration">Kanban</span>  <span class="enumeration">Scrum</span>  <span class="enumeration">TDD</span>  <span class="enumeration">Git Flow</span> 
-              </li>
-                <li class="card-nested skill advanced">
-                  <strong>Database Technology (advanced):</strong> 
-                   <span class="enumeration">Postgresql</span>  <span class="enumeration">Cassandra</span>  <span class="enumeration">CAP Theorem</span>  <span class="enumeration">Redis</span> 
-              </li>
-                <li class="card-nested skill advanced">
-                  <strong>Linux (advanced):</strong> 
-                   <span class="enumeration">Ubuntu</span>  <span class="enumeration">Shell Scripting (bash)</span>  <span class="enumeration">System configuration</span> 
-              </li>
-                <li class="card-nested skill basic">
-                  <strong>Mobile Development (basic):</strong> 
-                   <span class="enumeration">Android</span>  <span class="enumeration">iOS (rusty)</span>  <span class="enumeration">React Native (academic)</span> 
-              </li>
-                <li class="card-nested skill basic">
-                  <strong>Web Development (basic):</strong> 
-                   <span class="enumeration">HTML</span>  <span class="enumeration">CSS</span>  <span class="enumeration">Javascript</span>  <span class="enumeration">Angular (minimal)</span>  <span class="enumeration">Ember (academic)</span> 
-              </li>
-            </ul>
-  
-            <h4 id="education"><span class="fa fa-lg fa-mortar-board"></span> <span class="title">Education</span></h4>
-            
-            <ul class="list-unstyled">
-                <li class="card-nested">
-                  <div class="content has-sidebar">
-                    <p class="clear-margin-sm">
-                      <strong>Computer Science and Engineering, S.B.</strong>,&nbsp;
-                      Massachusetts Institute of Technology
-                    </p>
-                    <p class="text-muted">
-                      <small>
-                        Aug 1990 -  Apr 1995 
-                      </small>
-                    </p>
-                    <i></i>
-                    <div class="space-top labels">
-                      
                     </div>
                   </div>
-                </li>
-            </ul>
-
-
-
-            <h4  id="publications"><span class="fa fa-lg fa-book"></span> <span class="title">Publications</span> </h4>
-            <ul class="list-unstyled">
-                <li class="card-nested">
-                  <div class="content has-sidebar">
-                    <p class="clear-margin-sm">
-                      <strong>
-                         <a href="https://github.com/wr0ngway/tivohmo"  target="_blank">TivoHMO</a> 
-                      </strong>,&nbsp;
-                      Matt Conway
-                    </p>
-                    <p class="text-muted">
-                      <small> Published on: Sep 30, 2014 </small>
-                    </p>
-                    <p class="clear-margin">A ruby gem that provides a Ruby SDK for authoring and running Tivo Home Media Option applications, to enable viewing of Plex Video shares through the Tivo television UI</p>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      American Management Systems
+                    </div>
+                    <div class="year">September 1995 – December 1998</div>
                   </div>
-                  
-                </li>
-                <li class="card-nested">
-                  <div class="content has-sidebar">
-                    <p class="clear-margin-sm">
-                      <strong>
-                         <a href="https://github.com/wr0ngway/trident"  target="_blank">Trident</a> 
-                      </strong>,&nbsp;
-                      Matt Conway
-                    </p>
-                    <p class="text-muted">
-                      <small> Published on: Nov 04, 2013 </small>
-                    </p>
-                    <p class="clear-margin">A ruby gem for managing pools of arbitrary forked processes</p>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Software Engineer</div>
+                    <div class="description">
+                      Built the team, Helped define strategy, and set the engineering patterns to take us to a successful exit
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Developed a Generic CORBA client in Java to aid in testing our CORBA C++ servers. The client would dynamically determine the properties of IDL interfaces at runtime and allow the user to interactively call methods on those interfaces in a graphical manner. This was done by using either introspection of Java stub code generated by the Java IDL compiler or by dynamically reading and parsing the IDL retrieved from a CORBA interface repository</li>
+                        <li class="list-group-item">AMSCAT (AMS Center for Advanced Technology) Associate. Used Gemstone/J to write an application server in order to determine its viability as a product for use by AMS. Integrated this server with software written by other Associates to tackle a problem experienced in one of AMS's business projects</li>
+                        <li class="list-group-item">C++ developer on the Quantum project at BellSouth. The Quantum project involved implementing a flexible billing system using a three tiered architecture. This system consisted of a Smalltalk front end using CORBA to access a C++ middle tier. The C++ middle tier is a scalable, distributed architecture accessing a Sybase backend through the combination of an object persistence framework and Rogue Wave's DBTools.h++. Worked closely with clients to design new functionality for the C++ middle tier and implemented many of these changes</li>
+                        <li class="list-group-item">Configuration management on the FORCE2000 Project for British Telecom. Liaison between the configuration management team and developers. Responsible for creating a suite of unix scripts for accessing a NT PVCS archive from a DEC Alpha Ultrix machine. These scripts used a combination of NFS, RCP and RSH/REXEC to transfer the files and check them into and out of the archive by remotely executing the Windows NT PVCS executables</li>
+                      </ul>
+                    </div>
                   </div>
-                  
-                </li>
-                <li class="card-nested">
-                  <div class="content has-sidebar">
-                    <p class="clear-margin-sm">
-                      <strong>
-                         <a href="http://rubber.io/"  target="_blank">Rubber</a> 
-                      </strong>,&nbsp;
-                      Matt Conway, Kevin Menard
-                    </p>
-                    <p class="text-muted">
-                      <small> Published on: Jan 24, 2008 </small>
-                    </p>
-                    <p class="clear-margin">A deployment framework that enables relatively complex multi-instance deployments of applications to Amazon’s Elastic Compute Cloud (EC2) and other cloud providers</p>
-                  </div>
-                  
-                </li>
-            </ul>
-
-
-
-
+                </div>
+              </div>
           </div>
         </div>
-      </section>
+        <div class="col-xs-12 col-sm-5">
+          <!-- CONTACT -->
+          <div class="box clearfix">
+            <h2><i class="fas fa-bullseye ico"></i> Contact</h2>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fas fa-map-marker fa-fw"></span></div>
+              
+              <div class="title only  pull-right">Weymouth, Massachusetts MA 02189 US</div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fas fa-envelope fa-fw"></span></div>
+              <div class="title only pull-right"><a href="mailto:matt@conwaysplace.com" target="_blank">matt@conwaysplace.com</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fab fa-linkedin fa-fw"></span></div>
+              <div class="title pull-right">LinkedIn</div>
+              <div class="description pull-right"><a href="http:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;matthewrbconway" target="_blank">mattconway</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fab fa-github fa-fw"></span></div>
+              <div class="title pull-right">Github</div>
+              <div class="description pull-right"><a href="https:&#x2F;&#x2F;github.com&#x2F;wr0ngway" target="_blank">wr0ngway</a></div>
+            </div>
+          </div>
+          <!-- EDUCATION -->
+          <div class="box">
+            <h2><i class="fas fa-university ico"></i> Education</h2>
+            <ul id="education" class="clearfix">
+              <li>
+                <div class="year pull-left">1990 1995</div>
+                <div class="description pull-right">
+                  <h3>Massachusetts Institute of Technology</h3>
+                  <div class="where"></div>
+                  <p><i class= "fas fa-graduation-cap ico"></i> S.B.</p>
+                  <p>Computer Science and Engineering</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- SKILLS -->
+          <div class="box">
+            <h2><i class="fas fa-tasks ico"></i> Skills</h2>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Systems Engineering
+                  <span class="skill-level">Advanced</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Distributed Architectures</span>
+                <span class= "skill badge">Orchestration</span>
+                <span class= "skill badge">DevOps</span>
+                <span class= "skill badge">Infrastructure</span>
+                <span class= "skill badge">Metrics and Monitoring</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Plaform Engineering &#x2F; Devops
+                  <span class="skill-level">Advanced</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Terraform</span>
+                <span class= "skill badge">CloudFormation</span>
+                <span class= "skill badge">Kubernetes</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Software Development
+                  <span class="skill-level">Advanced</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Ruby</span>
+                <span class= "skill badge">Rails</span>
+                <span class= "skill badge">Javascript (adequate)</span>
+                <span class= "skill badge">Python (rusty)</span>
+                <span class= "skill badge">Java (rusty)</span>
+                <span class= "skill badge">C/C++ (rusty)</span>
+                <span class= "skill badge">Go (academic)</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Software Engineering
+                  <span class="skill-level">Advanced</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Agile</span>
+                <span class= "skill badge">Kanban</span>
+                <span class= "skill badge">Scrum</span>
+                <span class= "skill badge">TDD</span>
+                <span class= "skill badge">Git Flow</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Database Technology
+                  <span class="skill-level">Advanced</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Postgresql</span>
+                <span class= "skill badge">Cassandra</span>
+                <span class= "skill badge">CAP Theorem</span>
+                <span class= "skill badge">Redis</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Linux
+                  <span class="skill-level">Advanced</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Ubuntu</span>
+                <span class= "skill badge">Shell Scripting (bash)</span>
+                <span class= "skill badge">System configuration</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Mobile Development
+                  <span class="skill-level">Beginner</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Android</span>
+                <span class= "skill badge">iOS (rusty)</span>
+                <span class= "skill badge">React Native (academic)</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Web Development
+                  <span class="skill-level">Beginner</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">HTML</span>
+                <span class= "skill badge">CSS</span>
+                <span class= "skill badge">Javascript</span>
+                <span class= "skill badge">Angular (minimal)</span>
+                <span class= "skill badge">Ember (academic)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    
+
   </body>
 </html>

@@ -2,13 +2,10 @@
   "basics": {
     "name": "Matthew Conway",
     "label": "CTO",
-    "picture": "http://www.gravatar.com/avatar/962f375eb3baf853485fdfcfe2277857",
+    "image": "https://2.gravatar.com/avatar/c66dc5368643b9f73908635f69384a161b86ca038fbca058a1e333a4d0c9e578?size=512",
     "email": "matt@conwaysplace.com",
-    "phone": "(781) 333-8884",
-    "website": "http://simplygenius.com",
     "summary": "An individual with diverse knowledge in advanced computing technologies, with extensive experience as an executive in Boston Technology startups.  Most effective at bootstrapping software startups at both a team and technology level, with enough of a business sense to help tune an initial concept into a success, and define a long term technology strategy",
     "location": {
-      "address": "22 Overlook Road",
       "postalCode": "MA 02189",
       "city": "Weymouth",
       "countryCode": "US",
@@ -16,27 +13,37 @@
     },
     "profiles": [
       {
-        "network": "Github",
-        "username": "wr0ngway",
-        "url": "https://github.com/wr0ngway"
-      },
-      {
         "network": "LinkedIn",
         "username": "mattconway",
         "url": "http://www.linkedin.com/in/matthewrbconway"
       },
       {
-        "network": "Twitter",
-        "username": "mattconway",
-        "url": "https://twitter.com/mattconway"
+        "network": "Github",
+        "username": "wr0ngway",
+        "url": "https://github.com/wr0ngway"
       }
     ]
   },
   "work": [
     {
-      "company": "Simply Genius LLC",
+      "name": "CloudTruth",
+      "position": "Co-Founder/CTO",
+      "website": "http://cloudtruth.com",
+      "startDate": "2018-02-01",
+      "endDate": "2024-07-15",
+      "summary": "Raised funds, built the initial team, helped define strategy, culture, and process, and set the engineering patterns to deliver the desired products",
+      "highlights": [
+        "Raised venturing funding on the concept of a configuration data platform",
+        "Built and managed initial engineering team, and set up the effective engineering practices",
+        "Performed multiple customer prospect interviews to introduce the concept and get feedback on improving it",
+        "Defined initial product concepts and worked with application engineers to deliver it",
+        "Setup initial system architecture and devops tooling to deliver the application on AWS",
+        "Evolved system over time to improve its reliability and scale",
+        "Integrated an additonal engineering team acquired through a merger"
+      ]
+    },    {
+      "name": "Simply Genius LLC",
       "position": "President",
-      "website": "http://simplygenius.com",
       "startDate": "2015-10-15",
       "endDate": "2018-01-31",
       "summary": "Various consulting engagements",
@@ -50,7 +57,7 @@
       ]
     },
     {
-      "company": "Datto",
+      "name": "Datto",
       "position": "VP of Cloud Services",
       "website": "http://datto.com",
       "startDate": "2015-01-01",
@@ -62,7 +69,7 @@
       ]
     },
     {
-      "company": "Backupify",
+      "name": "Backupify",
       "position": "CTO/VP Engineering",
       "website": "http://backupify.com",
       "startDate": "2010-03-01",
@@ -81,9 +88,8 @@
       ]
     },
     {
-      "company": "Mobicious",
+      "name": "Mobicious",
       "position": "VP Engineering",
-      "website": "http://mobicious.com",
       "startDate": "2007-05-01",
       "endDate": "2009-12-31",
       "summary": "Built and managed a local engineering team for creating the mobicious product suite",
@@ -97,7 +103,7 @@
       ]
     },
     {
-      "company": "TripAdvisor",
+      "name": "TripAdvisor",
       "position": "Senior Engineer, Architect, Team Lead",
       "website": "http://tripadvisor.com",
       "startDate": "2004-02-01",
@@ -112,7 +118,7 @@
       ]
     },
     {
-      "company": "i2 Technologies",
+      "name": "i2 Technologies",
       "position": "Software Engineer",
       "website": "",
       "startDate": "1999-01-01",
@@ -130,7 +136,7 @@
       ]
     },
     {
-      "company": "American Management Systems",
+      "name": "American Management Systems",
       "position": "Software Engineer",
       "website": "C++/Java developer on products",
       "startDate": "1995-09-01",
@@ -163,6 +169,15 @@
         "DevOps",
         "Infrastructure",
         "Metrics and Monitoring"
+      ]
+    },
+    {
+      "name": "Plaform Engineering / Devops",
+      "level": "Advanced",
+      "keywords": [
+        "Terraform",
+        "CloudFormation",
+        "Kubernetes"
       ]
     },
     {
@@ -210,7 +225,7 @@
     },
     {
       "name": "Mobile Development",
-      "level": "Basic",
+      "level": "Beginner",
       "keywords": [
         "Android",
         "iOS (rusty)",
@@ -219,7 +234,7 @@
     },
     {
       "name": "Web Development",
-      "level": "Basic",
+      "level": "Beginner",
       "keywords": [
         "HTML",
         "CSS",
@@ -227,29 +242,6 @@
         "Angular (minimal)",
         "Ember (academic)"
       ]
-    }
-  ],
-  "publications": [
-    {
-      "name": "TivoHMO",
-      "publisher": "Matt Conway",
-      "releaseDate": "2014-10-01",
-      "website": "https://github.com/wr0ngway/tivohmo",
-      "summary": "A ruby gem that provides a Ruby SDK for authoring and running Tivo Home Media Option applications, to enable viewing of Plex Video shares through the Tivo television UI"
-    },
-    {
-      "name": "Trident",
-      "publisher": "Matt Conway",
-      "releaseDate": "2013-11-05",
-      "website": "https://github.com/wr0ngway/trident",
-      "summary": "A ruby gem for managing pools of arbitrary forked processes"
-    },
-    {
-      "name": "Rubber",
-      "publisher": "Matt Conway, Kevin Menard",
-      "releaseDate": "2008-01-25",
-      "website": "http://rubber.io/",
-      "summary": "A deployment framework that enables relatively complex multi-instance deployments of applications to Amazon’s Elastic Compute Cloud (EC2) and other cloud providers"
     }
   ]
 }
