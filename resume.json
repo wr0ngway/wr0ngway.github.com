@@ -26,6 +26,16 @@
   },
   "work": [
     {
+      "name": "Graphlan",
+      "position": "Consulting CTO",
+      "startDate": "2024-08-01",
+      "endDate": "2025-01-01",
+      "summary": "Helped define product vision and build out public API",
+      "highlights": [
+        "Built a REST API with typescript/nestjs/postgresql"
+      ]
+    },
+    {
       "name": "CloudTruth",
       "position": "Co-Founder/CTO",
       "website": "http://cloudtruth.com",
@@ -41,7 +51,8 @@
         "Evolved system over time to improve its reliability and scale",
         "Integrated an additonal engineering team acquired through a merger"
       ]
-    },    {
+    },
+    {
       "name": "Simply Genius LLC",
       "position": "President",
       "startDate": "2015-10-15",
@@ -186,11 +197,12 @@
       "keywords": [
         "Ruby",
         "Rails",
-        "Javascript (adequate)",
+        "Typescript",
+        "NestJS",
         "Python (rusty)",
         "Java (rusty)",
         "C/C++ (rusty)",
-        "Go (academic)"
+        "Go (minimal)"
       ]
     },
     {
